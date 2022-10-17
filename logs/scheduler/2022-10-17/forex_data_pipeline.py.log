@@ -1,0 +1,28 @@
+[2022-10-17T22:52:10.768+0000] {processor.py:156} INFO - Started process (PID=645) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-10-17T22:52:10.768+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-10-17T22:52:10.768+0000] {logging_mixin.py:117} INFO - [2022-10-17T22:52:10.768+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-10-17T22:52:10.770+0000] {logging_mixin.py:117} INFO - [2022-10-17T22:52:10.769+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/forex_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/forex_data_pipeline.py", line 3, in <module>
+    with DAG(
+TypeError: __init__() missing 1 required positional argument: 'dag_id'
+[2022-10-17T22:52:10.770+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-10-17T22:52:10.780+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.013 seconds
+[2022-10-17T22:52:41.567+0000] {processor.py:156} INFO - Started process (PID=709) to work on /opt/airflow/dags/forex_data_pipeline.py
+[2022-10-17T22:52:41.567+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/forex_data_pipeline.py for tasks to queue
+[2022-10-17T22:52:41.567+0000] {logging_mixin.py:117} INFO - [2022-10-17T22:52:41.567+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/forex_data_pipeline.py
+[2022-10-17T22:52:41.568+0000] {logging_mixin.py:117} INFO - [2022-10-17T22:52:41.568+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/forex_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/forex_data_pipeline.py", line 3, in <module>
+    with DAG(
+TypeError: __init__() missing 1 required positional argument: 'dag_id'
+[2022-10-17T22:52:41.569+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/forex_data_pipeline.py
+[2022-10-17T22:52:41.578+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/forex_data_pipeline.py took 0.013 seconds
